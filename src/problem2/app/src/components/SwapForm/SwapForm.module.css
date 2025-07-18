@@ -1,0 +1,23 @@
+.card {
+  padding: 2em;
+}
+
+.formWrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  .swapWrapper {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+
+  .amountToReceive {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+}
